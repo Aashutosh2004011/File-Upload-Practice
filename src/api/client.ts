@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from '../utils/auth';
 
 
-const API_BASE_URL = 'http://localhost:5000/api/v1';
+const API_BASE_URL = 'https://fileuploadbackend-0fbn.onrender.com/api/v1';
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
